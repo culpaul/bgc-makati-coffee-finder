@@ -1,0 +1,30 @@
+#map {
+  background-color: #e5e7eb;
+}
+
+.custom-cafe-pin {
+  background-color: #78350f;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.custom-cafe-pin:hover {
+  transform: scale(1.15);
+  background-color: #451a03;
+}
+
+aside::-webkit-scrollbar {
+  width: 6px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
